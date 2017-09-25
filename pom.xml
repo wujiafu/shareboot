@@ -79,7 +79,7 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<configuration>	<!-- 设置程序执行的主类 -->
-					<mainClass>com.codelete.StartSpringBootMain</mainClass>
+					<mainClass>com.codelete.shareboot.StartSpringBootMain</mainClass>
 				</configuration>
 				<executions>
 					<execution>

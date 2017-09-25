@@ -23,6 +23,7 @@ public class DeptController extends AbstractBaseController {
 
 	@RequestMapping(value = "/dept", method = RequestMethod.GET)
 	public String dept() { // 通过model可以实现内容的传递
+		System.out.println(10/0);
 		return "dept";
 	}
 
