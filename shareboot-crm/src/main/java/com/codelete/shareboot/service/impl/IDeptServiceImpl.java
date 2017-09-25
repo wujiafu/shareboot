@@ -4,10 +4,12 @@ import java.util.List;
 
 import javax.annotation.Resource;
 
+import org.springframework.stereotype.Service;
+
 import com.codelete.shareboot.dao.IDeptDAO;
 import com.codelete.shareboot.service.IDeptService;
 import com.codelete.shareboot.vo.Dept;
-
+@Service
 public class IDeptServiceImpl implements IDeptService {
 
 	@Resource
